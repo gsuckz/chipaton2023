@@ -298,7 +298,7 @@ model=nfet_03v3
 spiceprefix=X
 }
 C {devices/vsource.sym} 1890 -1560 0 0 {name=V1 value=3.3}
-C {devices/vsource_arith.sym} 2000 -1250 0 0 {name=E1 VOL=PULSE(0 3 1 1u 1u 1m 2m)}
+C {devices/vsource_arith.sym} 2000 -1250 0 0 {name=E1 VOL=PULSE(0 3 1 1n 1n 1u 2u)}
 C {devices/gnd.sym} 2140 -1220 0 0 {name=l1 lab=GND}
 C {devices/vsource.sym} 2220 -1250 0 0 {name=V2 value=sin(1 2 10k)}
 C {devices/vsource.sym} 2660 -1250 0 0 {name=V3 value=sin(1 2 20k)}
